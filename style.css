@@ -15,7 +15,7 @@ html, body{
 body{
     background: url(imagens/fundo-madeira.jpg) no-repeat top center;
     background-size: cover;
-    background-position: fixed;
+    background-attachment: fixed;
 }
 
 main{
@@ -33,4 +33,29 @@ section#telefone{
     
     height: 627px;
     width: 311px;
+}
+
+iframe.tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 268px;
+    height: 474px;
+}
+
+section#redes{
+    text-align: right;
+}
+
+section#redes img{
+    margin: 10px;
+    width: 65px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    box-sizing: border-box;
+}
+
+section#redes img:hover{
+    border: 2px solid rgba(194, 194, 194, 0.849);
+    transition: border 0.3s;
 }
